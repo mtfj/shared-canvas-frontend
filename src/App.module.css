@@ -1,0 +1,28 @@
+.App {
+  position: relative;
+}
+
+.paletteWrapper {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.color:hover {
+  transition: transform 200ms;
+  transform: scale(2);
+}
