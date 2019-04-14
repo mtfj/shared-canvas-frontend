@@ -35,7 +35,7 @@ class App extends Component {
     }
 
     const ethUrl = "http://rinkeby.fluence.one:8545/";
-    const appId = "72";
+    const appId = "75";
     let contractAddress = "0xeFF91455de6D4CF57C141bD8bF819E5f873c1A01";
 
     const session = await fluence.connect(contractAddress, appId, ethUrl);
